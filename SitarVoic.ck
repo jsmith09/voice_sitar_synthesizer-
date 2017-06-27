@@ -100,9 +100,8 @@ public class SitarVoic
         
         while(true)
         {
-            if(requestNote)
+            if(requestNote == true)
             {
-            
                 osc.freq(osc_freq);
                 osc_freq => sit.freq;
                 sit.noteOn(0.5);
